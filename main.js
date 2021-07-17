@@ -1,6 +1,6 @@
 
 window.addEventListener('load', () => {
-    alert("You can find contacts typing their name,surname,phone on search box\n\nSearch box ilə kontaktları adlarına,soyadlarına,nömrələrinə görə axtara bilərsiniz")
+    alert("You can find contacts typing their name,surname,phone on search box\n\nSearch box ile kişileri adlarına,soyadlarına,numaralarına göre aktarabilirsiniz")
 
     let contacts = JSON.parse(localStorage.getItem('data'))
     const contact = $('.content').children('.contacts')
